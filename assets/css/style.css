@@ -34,6 +34,7 @@ html {
   padding:5px;
   border-radius: 50px;
   background-color: #172635;
+  margin:10px;
 }
 
 .img-left{
@@ -43,6 +44,7 @@ margin: 10px 20px 10px 0;
   padding:5px;
   border-radius: 50px;
   background-color: #172635;
+  margin:10px;
 }
 
 .img-center{
@@ -126,6 +128,12 @@ border-bottom:1px solid darkgreen;
     padding:5px;
     }
 
+    #player-map{
+      max-width: 50%;
+      max-height: 50%;
+    }
+
+
 ul li{
   list-style-type: none;
   margin:20px;
@@ -137,6 +145,19 @@ dl dt{
 
 dd + dt{
   margin-top: 20px;
+}
+
+#factions{
+  display:flex;
+  background-color: aqua;
+
+}
+
+#factions li{
+  width:100px;
+  height:100px;
+  
+  
 }
 
 #colophon{
