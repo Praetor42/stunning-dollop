@@ -19,6 +19,17 @@ html {
   }
 
 
+ 
+
+  body {
+    font-family: "Baskervville", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  
+  
+
   /*-- utility classes --*/
 
   .container{
@@ -134,10 +145,7 @@ border-bottom:1px solid darkgreen;
     border-radius: 5px;
     }
 
-    #player-map{
-      max-width: 50%;
-      max-height: 50%;
-    }
+   
 
 
 ul li{
@@ -189,15 +197,18 @@ border: 1px solid black;
   
 }
 
+#player-map{
+  max-width: 50%;
+  max-height: 50%;
+}
+
 #Black_Spider{
   
   max-height: 200px;
-  max-width: 200px;
-  background-color: #006400;
-  border: 5px solid black;
-  float:left;
+  max-width: 200px; 
+  
+  float:right;
 }
-
 
 
 #colophon{
@@ -210,6 +221,7 @@ border: 1px solid black;
 clear:both;
 }
 
+/*-- id specific end --*/
 
 
 
