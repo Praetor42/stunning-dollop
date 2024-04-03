@@ -21,11 +21,7 @@ html {
 
  
 
-  body {
-    font-family: "Baskervville", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
+  
   
   
   
@@ -36,6 +32,20 @@ html {
     max-width: 960px;
     width:80vw;
     margin:40px auto;
+    
+  }
+
+  .torso{
+    border-collapse: collapse;
+   
+    border-left:1px solid black;
+    border-right:1px solid black;
+    width:90vw;
+    max-width: 1500px;
+    margin:auto;
+    
+    padding-top:40px;
+    padding-bottom:40px;
   }
 
   .img-right{
@@ -69,7 +79,18 @@ margin: 10px 20px 10px 0;
 
 /*-- global styles --*/
 
+
+
 body{
+  font-family: "Baskervville", serif;
+  font-weight: 550;
+  font-style: normal;
+
+
+
+
+
+
     margin:0;
     font-size: 1.5rem;
     background-color: #ffffff;
@@ -83,7 +104,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     text-align: center;
     text-shadow:1px 1px #000;
 padding:40px;
-border-bottom: 1px solid #000;
+border-bottom:1px solid black;
+
 }
 
 header.primary h1{
@@ -128,6 +150,7 @@ header.primary h1{
 
   .container{
     line-height: 1.5;
+    
   }
 
   .container p{
@@ -214,6 +237,7 @@ border: 1px solid black;
 #colophon{
   background-color: darkgreen;
   text-align: center;
+  border-top: 1px solid black;
   color: #fff;
   font-size: 1.5rem;
   padding:10px;
